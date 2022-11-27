@@ -18,7 +18,7 @@
         if (check == false)
         {
             Console.WriteLine("вы ввели не целое число");
-            return null;
+            Environment.Exit(0);
         }
 
         tmp = string.Empty;
@@ -32,7 +32,7 @@
         if (check == false)
         {
             Console.WriteLine("вы ввели не целое число");
-            return null;
+            Environment.Exit(0);
         }
 
 
